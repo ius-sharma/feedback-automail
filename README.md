@@ -1,16 +1,73 @@
-# React + Vite
+# Feedback Form – Auto Mail
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web-based feedback form that automatically sends the submitted feedback to the user's email using EmailJS.
 
-Currently, two official plugins are available:
+This project demonstrates how a feedback system can instantly send a confirmation email containing the same feedback details that the user submitted.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://ius-sharma.github.io/feedback-automail/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Project Overview
+
+When a user fills out the feedback form and submits it, the system automatically sends an email to the user containing the same feedback information they provided.
+
+This helps confirm that the feedback was successfully submitted.
+
+---
+
+## ✨ Features
+
+* Simple and user-friendly feedback form
+* Automatic email confirmation after form submission
+* Email contains the exact feedback entered by the user
+* Works directly in the browser
+* Deployed using GitHub Pages
+
+---
+
+## 🛠 Tech Stack
+
+* React
+* JavaScript
+* CSS
+* EmailJS (for sending automatic emails)
+
+---
+
+## ⚙️ Installation (Run Locally)
+
+Clone the repository
+
+git clone https://github.com/ius-sharma/feedback-automail.git
+
+Go to the project folder
+
+cd feedback-automail
+
+Install dependencies
+
+npm install
+
+Run the project
+
+npm run dev
+
+---
+
+## 📖 Usage
+
+1. Open the website
+2. Fill out the feedback form
+3. Submit the form
+4. You will receive an automatic email with the submitted feedback details
+
+---
+
+## 🎓 Project Purpose
+
+This project was created as a college assignment to demonstrate how feedback systems and automatic email notifications can be implemented in a web application.
