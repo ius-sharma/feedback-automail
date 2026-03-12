@@ -71,3 +71,10 @@ npm run dev
 ## 🎓 Project Purpose
 
 This project was created as a college assignment to demonstrate how feedback systems and automatic email notifications can be implemented in a web application.
+
+---
+
+## 👨‍💻 Author
+
+Ayush Sharma  
+B.Tech Computer Engineering | Gamer | ODDSOCEAN
